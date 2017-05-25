@@ -1,0 +1,45 @@
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+
+
+body{
+	background-color: lightblue;
+}
+
+nav ul{
+	padding: 10px;
+	overflow: auto;				/* specifies what happens if content overflows an element's box */
+	background-color: black; /*Padding takes background color*/
+	list-style:none; /* takes away the bullet points */
+}
+
+nav li{
+	float: left;	/*floats the bullet point list across the screen from the left*/
+	width: 33.33%;	/*sets the width apart for each item*/
+	text-align: center;
+	border: 2px solid red;
+}
+
+nav a {
+	color: #CCFF66 ;
+	text-decoration: none; /*gets rid of underline*/
+	font-size: 20px;
+	transition: 1s;
+}
+
+nav a:hover{
+	 color: #8CC7A1;
+}
+
+.header{
+	padding: 50px 50px 200px 200px;
+	background-image: url("../images/nyc.jpeg"); /* ../ goes up one level or / to go to the root */
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	
+}
+
