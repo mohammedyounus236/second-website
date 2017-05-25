@@ -6,7 +6,7 @@
 
 
 body{
-	background-color: lightblue;
+	background-color: #8499B1;
 }
 
 nav ul{
@@ -43,3 +43,22 @@ nav a:hover{
 	
 }
 
+.main-content{
+	background-color: #202C59;
+	padding: 20px;
+	margin: 0px 0px 20px 0px;
+	color: #fff;
+	overflow:auto;
+}
+
+.main-content h2{
+	color: #C1BDB3;
+}
+
+.half-img{
+	width:50%;
+	display:block;
+	float:left;
+	padding:5px;
+
+}
