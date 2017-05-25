@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
 *{
 	box-sizing:border-box;
 	padding:0;
@@ -7,6 +9,7 @@
 
 body{
 	background-color: #8499B1;
+	font-family: 'Rajdhani', sans-serif;
 }
 
 nav ul{
@@ -40,7 +43,7 @@ nav a:hover{
 	background-size: cover;
 	background-position: center;
 	color: #fff;
-	
+	font-family: 'Courgette', cursive;
 }
 
 .main-content{
@@ -53,6 +56,12 @@ nav a:hover{
 
 .main-content h2{
 	color: #C1BDB3;
+	float:center;
+	background-color: blue;
+	margin: 10px;
+	font-family: 'Courgette', cursive;
+	/*text-align:center;
+	padding: 25px;*/
 }
 
 .half-img{
@@ -60,5 +69,31 @@ nav a:hover{
 	display:block;
 	float:left;
 	padding:5px;
+}
 
+
+/*These are Utility Classes*/
+.center-text{
+	text-align:center;
+}
+
+.abouth1{
+	font-family: 'Courgette', cursive;
+	background-image: url("../images/nycdusk.jpg");
+	background-size:cover;
+	background-position: center;
+	padding: 250px 250px 250px 200px;
+	color:white;
+}
+
+div p{
+	color: white;
+}
+
+.about-content{
+	background-color: #202C59;
+	padding: 20px;
+	margin: 0px 0px 20px 0px;
+	color: #fff;
+	overflow:auto;
 }
