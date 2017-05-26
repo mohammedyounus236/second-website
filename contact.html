@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title> My Second Website </title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<nav>
+			<ul>
+				<li>	<a href="index.html"> Home </a> </li>
+				<li>	<a href="about.html"> About </a> </li>
+				<li>	<a href="contact.html"> Contact </a> </li>
+			</ul>
+		</nav>
+		<div class="contact-header">
+			<h1> Contact </h1>
+		</div>
+		<section class="main-content">
+			<h2 class = "center-text"> Send me a message </h2>
+			<form method = "post" action = "process.php">
+				<div class= "form-left">
+				<label>
+					Name:
+					<input type = "text" name = "name " placeholder="Name">
+				</label>
+				<label>
+					Email:
+					<input type = "text" name = "email " placeholder="Email">
+				</label>
+				<label>
+					Subject:
+					<input type = "text" name = "Subject " placeholder="subject">
+				</label>
+				</div>
+				<div class= "form-right">
+				<label>
+					Message: <br>
+					<textarea name="message" placeholder="message"> </textarea>
+				</label>
+				<label>
+					<input type="radio" name="subscribe" value="yes">Yes, I want to subscribe.
+				</label>
+				<label>
+					<input type="radio" name="subscribe" value="no">No, I don't want to subscribe.
+				</label>
+				<button type="submit"> Submit </button>
+				</div>
+			</form>
+		</section>
+	</body>
+</html>
